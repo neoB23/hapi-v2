@@ -65,7 +65,7 @@ function Hero(){
                     </div>
                     
                     
-                    <img class="rounded-b-lg" src="images/467974638_543932278441142_1688553841243207054_n.png" alt="Example Image" />
+                    <img class="rounded-b-lg" src="public/images/467974638_543932278441142_1688553841243207054_n.png" alt="Example Image" />
                     </div>
                             </div>
                         </div>
@@ -247,7 +247,7 @@ function Hero(){
                         </a>
                     </div>
                     </div>
-                    <img src="images/460230031_496458679855169_6300121024433666985_n.jpg" class="w-full" alt="chair" />
+                    <img src="public/images/460230031_496458679855169_6300121024433666985_n.jpg" class="w-full" alt="chair" />
                 </div>
                 <div class="sm:w-1/2 sm:mt-0 mt-4 relative">
                     <div>
@@ -261,7 +261,7 @@ function Hero(){
                         </a>
                     </div>
                     </div>
-                    <img src="images/465783993_531941709640199_4034815609769431758_n.jpg" class="w-full" alt="wall design" />
+                    <img src="public/images/465783993_531941709640199_4034815609769431758_n.jpg" class="w-full" alt="wall design" />
                 </div>
                 </div>
                 <div class="relative">
@@ -277,7 +277,7 @@ function Hero(){
                     </a>
                     </div>
                 </div>
-                <img src="images/469503895_554629547371415_8533590918917799848_n.jpg" alt="sitting place" class="w-full mt-8 md:mt-6 hidden sm:block" />
+                <img src="public/images/469503895_554629547371415_8533590918917799848_n.jpg" alt="sitting place" class="w-full mt-8 md:mt-6 hidden sm:block" />
                 <img class="w-full mt-4 sm:hidden" src="" alt="sitting place" />
                 </div>
             </div>
@@ -295,7 +295,7 @@ function Hero(){
                     </a>
                     </div>
                 </div>
-                <img src="images/460656542_498432392991131_8975124174437418860_n.jpg" alt="sitting place" class="w-full h-full sm:block hidden" />
+                <img src="public/images/460656542_498432392991131_8975124174437418860_n.jpg" alt="sitting place" class="w-full h-full sm:block hidden" />
                 <img class="w-full sm:hidden" src="" alt="sitting place" />
                 </div>
                 <div class="sm:flex items-center justify-between xl:gap-x-8 gap-x-6 md:mt-6 mt-4">
@@ -311,7 +311,7 @@ function Hero(){
                         </a>
                     </div>
                     </div>
-                    <img src="images/463250028_518440977656939_6062047591257480417_n.jpg" class="w-full" alt="chair" />
+                    <img src="public/images/463250028_518440977656939_6062047591257480417_n.jpg" class="w-full" alt="chair" />
                 </div>
                 <div class="relative w-full sm:mt-0 mt-4">
                     <div>
@@ -325,7 +325,7 @@ function Hero(){
                         </a>
                     </div>
                     </div>
-                    <img src="images/467329700_541705145330522_1563809262714030211_n.jpg" class="w-full" alt="wall design" />
+                    <img src="public/images/467329700_541705145330522_1563809262714030211_n.jpg" class="w-full" alt="wall design" />
                 </div>
                 </div>
             </div>
