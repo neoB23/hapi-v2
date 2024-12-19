@@ -48,7 +48,6 @@ function Login() {
                                     </button>
                                 </div>
                             </form>
-                          
                             <div className="flex items-center justify-center mt-6">
                                 <span className="border-b w-1/5 lg:w-1/4"></span>
                                 <p className="text-xs text-center text-gray-500 uppercase mx-2">or sign up using</p>
@@ -62,7 +61,6 @@ function Login() {
                                 </svg>
                                 Facebook
                             </button>
-
                             <button className="w-full mb-3 p-2 bg-white rounded text-black border border-gray-300 flex items-center justify-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 48 48" className="mr-2">
                                     <path fill="#FFC107" d="M43.611,20.083H42V20H24v8h11.303c-1.649,4.657-6.08,8-11.303,8c-6.627,0-12-5.373-12-12c0-6.627,5.373-12,12-12c3.059,0,5.842,1.154,7.961,3.039l5.657-5.657C34.046,6.053,29.268,4,24,4C12.955,4,4,12.955,4,24c0,11.045,8.955,20,20,20c11.045,0,20-8.955,20-20C44,22.659,43.862,21.35,43.611,20.083z"></path>

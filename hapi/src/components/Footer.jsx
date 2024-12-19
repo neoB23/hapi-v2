@@ -9,7 +9,6 @@ function Footer(){
             <div className="w-full md:w-auto md:ml-4 mb-6 md:mb-0 text-center md:text-left">
               <img src="Images/logo-light3-1.webp" className="h-12 mx-auto md:mx-0" alt="logo" />
             </div>
-      
             {/* Contact Us Section */}
             <div className="lg:w-1/4 md:w-1/2 w-full px-4 mb-6 md:mb-0">
               <h2 className="title-font font-medium text-slate-400 tracking-widest text-sm mb-3">CONTACT US</h2>
