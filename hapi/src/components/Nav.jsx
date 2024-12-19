@@ -17,7 +17,7 @@ function Nav() {
             <Link to="/" title="" className="flex">
               <img
                 className="w-auto h-9"
-                src="public/Images/logo-light3-1.webp"
+                src="Images/logo-light3-1.webp"
                 alt="logo"
               />
             </Link>

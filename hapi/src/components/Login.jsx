@@ -25,7 +25,7 @@ function Login() {
                     <div className="flex-1">
                         <div className="text-center">
                             <div className="flex justify-center mx-auto">
-                                <img className="w-auto h-9 sm:h-24" src="public/images/298196339_106725825477567_6920024355992233309_n-removebg-preview.png" alt=""/>
+                                <img className="w-auto h-9 sm:h-24" src="Images/298196339_106725825477567_6920024355992233309_n-removebg-preview.png" alt=""/>
                             </div>
                             <p className="mt-3 text-gray-500 dark:text-gray-300">Sign in to access your account</p>
                         </div>

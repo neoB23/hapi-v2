@@ -21,14 +21,14 @@ function About(){
     </div>
     {/* Right Section (Image) */}
     <div className="bg-red-600 w-full md:w-1/2 h-64 md:h-screen">
-        <img src="public/Images/6c702a69-2ea9-4cdb-8dbc-31785477de85.jpg" className="w-full h-full object-cover" alt="Hapi.Bytes" />
+        <img src="Images/6c702a69-2ea9-4cdb-8dbc-31785477de85.jpg" className="w-full h-full object-cover" alt="Hapi.Bytes" />
     </div>
 </div>
 
 <div className="flex flex-col md:flex-row items-center h-auto md:h-screen">
     {/* Image Section */}
     <div className="bg-red-600 w-full md:w-1/2 h-64 md:h-screen">
-        <img src="public/Images/af12d5b1-9dc4-4ed6-9c41-27b53206cedb.jpg" className="w-full h-full object-cover" alt="Our Goals at Hapi.Bytes" />
+        <img src="Images/af12d5b1-9dc4-4ed6-9c41-27b53206cedb.jpg" className="w-full h-full object-cover" alt="Our Goals at Hapi.Bytes" />
     </div>
     {/* Right Section (Goals) */}
     <div className="bg-white w-full md:w-1/2 h-auto md:h-screen flex flex-col items-center justify-center p-4 md:p-0">
