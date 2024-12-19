@@ -10,6 +10,7 @@ import Booking from './components/Booking';
 import Login from './components/Login';
 import Support from './components/Support';
 import Signup from './components/Signup';
+import Loading from './components/Loading';
 
 const MainLayout = ({ children }) => {
   return (
