@@ -209,7 +209,7 @@ function Pricing(){
 
   <div className="container relative mx-auto space-y-12">
     <div className="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row">
-      <img src="public/images/Infrastruttura-di-rete-FTTH.png" alt="FTTH" className="h-80 dark:bg-gray-500 aspect-video" />
+      <img src="public/Images/Infrastruttura-di-rete-FTTH.png" alt="FTTH" className="h-80 dark:bg-gray-500 aspect-video" />
       <div className="flex flex-col justify-center flex-1 p-6 bg-zinc-900">
         <h3 className="text-3xl font-bold">FTTH (Fiber to the Home)</h3>
         <p className="my-6 text-zinc-500">
@@ -218,7 +218,7 @@ function Pricing(){
       </div>
     </div>
     <div className="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row-reverse">
-      <img src="public/images/internet-leased-line-services-1.webp" alt="" className="h-80 dark:bg-gray-500 aspect-video" />
+      <img src="public/Images/internet-leased-line-services-1.webp" alt="" className="h-80 dark:bg-gray-500 aspect-video" />
       <div className="flex flex-col justify-center flex-1 p-6 bg-zinc-900">
         <h3 className="text-3xl font-bold">Leased Line Internet Connection</h3>
         <p className="my-6 text-zinc-500">
@@ -227,7 +227,7 @@ function Pricing(){
       </div>
     </div>
     <div className="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row">
-      <img src="public/images/istockphoto-673967530-612x612.jpg" alt="" className="h-80 dark:bg-gray-500 aspect-video" />
+      <img src="public/Images/istockphoto-673967530-612x612.jpg" alt="" className="h-80 dark:bg-gray-500 aspect-video" />
       <div className="flex flex-col justify-center flex-1 p-6 bg-zinc-900">
         <h3 className="text-3xl font-bold">CCTV Installation</h3>
         <p className="my-6 text-zinc-500">
@@ -236,7 +236,7 @@ function Pricing(){
       </div>
     </div>
     <div className="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row-reverse">
-      <img src="public/images/Hf4d306872e3d447aa33c0f414bc58b42k.avif" alt="" className="h-80 dark:bg-gray-500 aspect-video" />
+      <img src="public/Images/Hf4d306872e3d447aa33c0f414bc58b42k.avif" alt="" className="h-80 dark:bg-gray-500 aspect-video" />
       <div className="flex flex-col justify-center flex-1 p-6 bg-zinc-900">
         <h3 className="text-3xl font-bold">WiFi Hotspot/Vendo</h3>
         <p className="my-6 text-zinc-500">

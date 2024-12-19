@@ -7,7 +7,7 @@ function Footer(){
           <div className="flex flex-wrap md:text-left text-center order-first">
             {/* Logo Section */}
             <div className="w-full md:w-auto md:ml-4 mb-6 md:mb-0 text-center md:text-left">
-              <img src="images/logo-light3-1.webp" className="h-12 mx-auto md:mx-0" alt="logo" />
+              <img src="public/Images/logo-light3-1.webp" className="h-12 mx-auto md:mx-0" alt="logo" />
             </div>
       
             {/* Contact Us Section */}
@@ -15,15 +15,15 @@ function Footer(){
               <h2 className="title-font font-medium text-slate-400 tracking-widest text-sm mb-3">CONTACT US</h2>
               <nav className="list-none mb-10 space-y-2">
                 <li className="flex items-center justify-center md:justify-start space-x-2">
-                  <img src="images/mi--location.png" className="w-6" alt="Location Icon" />
+                  <img src="public/Images/mi--location.png" className="w-6" alt="Location Icon" />
                   <a href="https://www.google.com/maps/place/Hapi.Bytes+Network+and+Data+Solution/@14.5649649,121.1210458,17z/data=!3m1!4b1!4m6!3m5!1s0x3397c73736891ef9:0x6ab2ab0864f46806!8m2!3d14.5649649!4d121.1236207!16s%2Fg%2F11k4yrv3qf?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" className="text-slate-400">#52 Fermina Road Brgy Sta Ana Taytay, Rizal</a>
                 </li>
                 <li className="flex items-center justify-center md:justify-start space-x-2">
-                  <img src="images/ic--baseline-phone.png" className="w-6" alt="Phone Icon" />
+                  <img src="public/Images/ic--baseline-phone.png" className="w-6" alt="Phone Icon" />
                   <a href="tel:+639616484666" className="text-slate-400">(63+) 961-648-4666</a>
                 </li>
                 <li className="flex items-center justify-center md:justify-start space-x-2">
-                  <img src="images/mdi--gmail.png" className="w-6" alt="Email Icon" />
+                  <img src="public/Images/mdi--gmail.png" className="w-6" alt="Email Icon" />
                   <a href="mailto:sales@hapibytes.com" className="text-slate-400">sales@hapibytes.com</a>
                 </li>
               </nav>
@@ -34,15 +34,15 @@ function Footer(){
               <h2 className="title-font font-medium text-slate-400 tracking-widest text-sm mb-3">SOCIALS</h2>
               <nav className="list-none mb-10 space-y-4">
                 <li className="flex items-center justify-center md:justify-start space-x-2">
-                  <img src="images/ic--baseline-facebook.png" className="w-6" alt="Facebook Icon" />
+                  <img src="public/Images/ic--baseline-facebook.png" className="w-6" alt="Facebook Icon" />
                   <a href="https://www.facebook.com/hapi.bytes" className="text-slate-400">Facebook</a>
                 </li>
                 <li className="flex items-center justify-center md:justify-start space-x-2">
-                  <img src="images/mdi--instagram.png" className="w-6" alt="Instagram Icon" />
+                  <img src="public/Images/mdi--instagram.png" className="w-6" alt="Instagram Icon" />
                   <a href="#" className="text-slate-400">Instagram</a>
                 </li>
                 <li className="flex items-center justify-center md:justify-start space-x-2">
-                  <img src="images/mdi--linkedin.png" className="w-6" alt="LinkedIn Icon" />
+                  <img src="public/Images/mdi--linkedin.png" className="w-6" alt="LinkedIn Icon" />
                   <a href="#" className="text-slate-400">LinkedIn</a>
                 </li>
               </nav>
