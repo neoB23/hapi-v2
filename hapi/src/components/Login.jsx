@@ -4,6 +4,12 @@ function Login() {
     return (
         <div className="bg-white dark:bg-gray-900">
             <div className="flex justify-center h-screen">
+            <a
+                href="/"
+                className=" bg-black p-2 rounded font-bold absolute top-4 left-4 text-sm text-gray-700 dark:text-gray-300 hover:underline focus:outline-none"
+            >
+                &lt; Go Back Home
+            </a>
                 <div 
                     className="hidden bg-cover lg:block lg:w-2/3" 
                     style={{
@@ -14,9 +20,8 @@ function Login() {
                         <div>
                             <h2 className="text-2xl font-bold text-white sm:text-3xl">Hapi.Bytes</h2>
                             <p className="max-w-xl mt-3 text-gray-300">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. In
-                                autem ipsa, nulla laboriosam dolores, repellendus perferendis libero suscipit nam temporibus
-                                molestiae
+                            Explore an exceptional user experience with Hapi.Bytes.
+                            Connect with ease and enjoy seamless online services.
                             </p>
                         </div>
                     </div>
@@ -43,9 +48,9 @@ function Login() {
                                     <input type="password" name="password" id="password" placeholder="Your Password" className="block w-full px-4 py-2 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
                                 </div>
                                 <div className="mt-6">
-                                    <button className="w-full px-4 py-2 tracking-wide text-white transition-colors duration-300 transform bg-blue-500 rounded-lg hover:bg-blue-400 focus:outline-none focus:bg-blue-400 focus:ring focus:ring-blue-300 focus:ring-opacity-50">
+                                    <a href="/" className="items-center justify-center flex w-full px-4 py-2 tracking-wide text-white transition-colors duration-300 transform bg-blue-500 rounded-lg hover:bg-blue-400 focus:outline-none focus:bg-blue-400 focus:ring focus:ring-blue-300 focus:ring-opacity-50">
                                         Sign in
-                                    </button>
+                                    </a>
                                 </div>
                             </form>
                             <div className="flex items-center justify-center mt-6">

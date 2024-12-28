@@ -42,7 +42,7 @@ function App() {
       <Route path="/bookingform" element={<MainLayout><Booking/></MainLayout>} />
       <Route path="/login" element={<SecondLayout><Login/></SecondLayout>} />
       <Route path="/Support" element={<MainLayout><Support/></MainLayout>} />
-      <Route path="/signup" element={<MainLayout><Signup/></MainLayout>} />
+      <Route path="/signup" element={<SecondLayout><Signup/></SecondLayout>} />
     </Routes>
   </Router>
   )

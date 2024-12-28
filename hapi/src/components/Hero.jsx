@@ -278,7 +278,7 @@ function Hero(){
                     </div>
                 </div>
                 <img src="Images/469503895_554629547371415_8533590918917799848_n.jpg" alt="sitting place" class="w-full mt-8 md:mt-6 hidden sm:block" />
-                <img class="w-full mt-4 sm:hidden" src="" alt="sitting place" />
+              
                 </div>
             </div>
             <div class="lg:w-1/2 xl:ml-8 lg:ml-4 lg:mt-0 md:mt-6 mt-4 lg:flex flex-col justify-between">
@@ -296,7 +296,7 @@ function Hero(){
                     </div>
                 </div>
                 <img src="Images/460656542_498432392991131_8975124174437418860_n.jpg" alt="sitting place" class="w-full h-full sm:block hidden" />
-                <img class="w-full sm:hidden" src="" alt="sitting place" />
+                
                 </div>
                 <div class="sm:flex items-center justify-between xl:gap-x-8 gap-x-6 md:mt-6 mt-4">
                 <div class="relative w-full">
