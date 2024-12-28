@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Login() {
     return (
@@ -78,12 +79,12 @@ function Login() {
                             </div>
                             <p className="mt-6 text-sm text-center text-gray-400">
                                 Dont Have an Account?{' '}
-                                <a
-                                    href="/signup"
+                                <CustomLink
+                                    to="/signup"
                                     className="text-blue-500 focus:outline-none focus:underline hover:underline"
                                 >
                                     Sign Up
-                                </a>.
+                                </CustomLink>.
                             </p>
                         </div>
                     </div>
@@ -92,5 +93,11 @@ function Login() {
         </div>
     );
 }
-
+function CustomLink({ to, children, ...props }) {
+    return (
+      <Link to={to} {...props}>
+        {children}
+      </Link>
+    );
+  }
 export default Login;
