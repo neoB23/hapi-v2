@@ -76,15 +76,17 @@ function Login() {
                                 Google
                             </button>
                             </div>
-                            <p className="mt-6 text-sm text-center text-gray-400">
-                                Dont Have an Account?{' '}
+                            <div className="flex justify-center space-x-3"> 
+                                <p className=" text-sm text-center text-gray-400">
+                                    Don't Have an Account?
+                                </p>
                                 <a
                                     href="/signup"
-                                    className="text-blue-500 focus:outline-none focus:underline hover:underline"
+                                    className="block text-sm text-center text-blue-500 focus:outline-none focus:underline hover:underline"
                                 >
                                     Sign Up
-                                </a>.
-                            </p>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
