@@ -9,30 +9,64 @@ function Support(){
                     <h1 className="text-white font-bold md:text-4xl md:font-bold text-2xl p-20 md:p-24">Hapi Customer Support Channels</h1>
                 </div>
             </div>
-            <div className="flex flex-col justify-center items-center p-4 ">
-                <h1 className="text-black p-4 text-2xl md:text-5xl font-bold md:font-bold ">Need to speak with us?</h1>
-            </div>
-            <div className="flex space-x-4 p-4"> 
-                <div className="text-center items-center flex flex-col">
-                    <img src="https://images.unsplash.com/photo-1547517023-7ca0c162f816" className="h-60 rounded" alt="image"/>
-                    <h1 className="font-bold text-1xl md:text-2xl">Chat with Us!</h1>
-                    <p className="text-sm md:text-xl">Need to report a service issue, 
-                    request for reconnection <br/>and do aftersales transactions? Use our Hapi.Bytes <br/>
-                    Cares Messenger for quick and easy assistance.</p>
-
-                    <div className="flex items-center space-x-2"> 
-                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256"><defs><radialGradient id="logosMessenger0" cx="19.247%" cy="99.465%" r="108.96%" fx="19.247%" fy="99.465%"><stop offset="0%" stop-color="#09f"/><stop offset="60.975%" stop-color="#a033ff"/><stop offset="93.482%" stop-color="#ff5280"/><stop offset="100%" stop-color="#ff7061"/></radialGradient></defs><path fill="url(#logosMessenger0)" d="M128 0C55.894 0 0 52.818 0 124.16c0 37.317 15.293 69.562 40.2 91.835c2.09 1.871 3.352 4.493 3.438 7.298l.697 22.77c.223 7.262 7.724 11.988 14.37 9.054L84.111 243.9a10.22 10.22 0 0 1 6.837-.501c11.675 3.21 24.1 4.92 37.052 4.92c72.106 0 128-52.818 128-124.16S200.106 0 128 0"/><path fill="#fff" d="m51.137 160.47l37.6-59.653c5.98-9.49 18.788-11.853 27.762-5.123l29.905 22.43a7.68 7.68 0 0 0 9.252-.027l40.388-30.652c5.39-4.091 12.428 2.36 8.82 8.085l-37.6 59.654c-5.981 9.489-18.79 11.852-27.763 5.122l-29.906-22.43a7.68 7.68 0 0 0-9.25.027l-40.39 30.652c-5.39 4.09-12.427-2.36-8.818-8.085"/></svg>
-                        <a href="space-y-4" className="text-blue-500 underline">Hapi.Bytes Messenger</a>
+            <h1 className="text-2xl font-semibold sm:text-4xl mt-10 ">Need to speak with us?</h1>
+            <div className="flex flex-wrap justify-center gap-8 p-4"> 
+                <div className="max-w-xs w-full sm:max-w-sm p-4 rounded-md shadow-md dark:bg-gray-50 dark:text-gray-800">
+                    <img src="Images/b713c776e5da9071e58afeef44eff6be.jpg" alt="" className="object-cover object-center w-full rounded-t-md h-72 dark:bg-gray-500" />
+                    <div className="flex flex-col justify-between p-6 space-y-8">
+                        <div className="space-y-2">
+                            <h2 className="text-3xl font-semibold tracking-wide">Chat with Us</h2>
+                            <p className="dark:text-gray-800">Need to report a service issue, request reconnection, and do aftersales transactions? Use our Hapi.Bytes Cares Messenger for quick and easy assistance.</p>
+                        </div>
+                        <a href="https://www.facebook.com/messages/t/106693052147511" type="button" className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md dark:bg-violet-600 dark:text-gray-50">Hapi.Bytes Messenger</a>
                     </div>
                 </div>
-                <div className="text-center items-center flex flex-col">
-                    <img src="https://images.unsplash.com/photo-1547517023-7ca0c162f816" className="h-60 rounded" alt="image"/>
-                    <h1 className="font-bold text-1xl md:text-2xl">Book an Appointment</h1>
-                    <p className="text-sm md:text-xl">Need to report a service issue, 
-                    request for reconnection <br/>and do aftersales transactions? Use our Hapi.Bytes <br/>
-                    Cares Messenger for quick and easy assistance.</p>
+
+                <div className="max-w-xs w-full sm:max-w-sm p-4 rounded-md shadow-md dark:bg-gray-50 dark:text-gray-800">
+                    <img src="Images/f23cc3cf62ba135f9042708a038a8b6b.jpg" alt="" className="object-cover object-center w-full rounded-t-md h-72 dark:bg-gray-500" />
+                    <div className="flex flex-col justify-between p-6 space-y-8">
+                        <div className="space-y-2">
+                            <h2 className="text-3xl font-semibold tracking-wide">Email Us</h2>
+                            <p className="dark:text-gray-800">Need to report a service issue, request reconnection, or handle aftersales transactions? Email us at sales@hapibytes.com for quick and reliable assistance.</p>
+                        </div>
+                        <a href="mailto:sales@hapibytes.com" type="button" className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md dark:bg-violet-600 dark:text-gray-50">Hapi.Bytes Email</a>
+                    </div>
+                </div>
+
+                <div className="max-w-xs w-full sm:max-w-sm p-4 rounded-md shadow-md dark:bg-gray-50 dark:text-gray-800">
+                    <img src="Images/16a65667ea9fa66771b04416d1553f22.jpg" alt="" className="object-cover object-center w-full rounded-t-md h-72 dark:bg-gray-500" />
+                    <div className="flex flex-col justify-between p-6 space-y-8">
+                        <div className="space-y-2">
+                            <h2 className="text-3xl font-semibold tracking-wide">Visit Us</h2>
+                            <p className="dark:text-gray-800">Need to report a service issue, request reconnection, or handle aftersales transactions? Visit us on-site for personalized assistance.</p>
+                        </div>
+                        <a  href="https://www.google.com/maps/place/Hapi.Bytes+Network+and+Data+Solution/@14.5649649,121.1210458,17z/data=!3m1!4b1!4m6!3m5!1s0x3397c73736891ef9:0x6ab2ab0864f46806!8m2!3d14.5649649!4d121.1236207!16s%2Fg%2F11k4yrv3qf?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" type="button" className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md dark:bg-violet-600 dark:text-gray-50">Hapi.Bytes Location</a>
+                    </div>
                 </div>
             </div>
+
+            <section className="dark:bg-gray-100 dark:text-gray-800 w-full">
+                <div className="container flex flex-col justify-center px-4 py-8 mx-auto md:p-8">
+                    <h2 className="text-2xl font-semibold sm:text-4xl items-center justify-center flex">Frequently Asked Questions</h2>
+                    <p className="mt-4 mb-8 dark:text-gray-600 items-center justify-center flex">Find answers to common queries and get the help you need quickly.</p>
+                    <div className="space-y-4">
+                        <details className="w-full border rounded-lg">
+                            <summary className="px-4 py-6 focus:outline-none focus-visible:dark:ring-violet-600">How can I report a service issue?</summary>
+                            <p className="px-4 py-6 pt-0 ml-4 -mt-4 dark:text-gray-600">You can report a service issue by contacting our support team through the Hapi.Bytes Cares Messenger, emailing us, or visiting us on-site for immediate assistance.</p>
+                        </details>
+                        <details className="w-full border rounded-lg">
+                            <summary className="px-4 py-6 focus:outline-none focus-visible:dark:ring-violet-600">How can I make a payment for my services?</summary>
+                            <p className="px-4 py-6 pt-0 ml-4 -mt-4 dark:text-gray-600">Online: You can make a payment securely through our website using credit/debit cards or other online payment methods. <br />
+                            On-site: You can also visit our office to make a payment in person using cash or card. Our team will assist you with the process.</p>
+                        </details>
+                        <details className="w-full border rounded-lg">
+                            <summary className="px-4 py-6 focus:outline-none focus-visible:dark:ring-violet-600">How can I request a service upgrade for my landline?</summary>
+                            <p className="px-4 py-6 pt-0 ml-4 -mt-4 dark:text-gray-600">Online: You can request a service upgrade by visiting our website and filling out the upgrade request form or contacting our support team via email or Hapi.Bytes Cares Messenger. <br />
+                            On-site: You can also visit our office, where our staff will assist you in selecting and processing your desired service upgrade. </p>
+                        </details>
+                    </div>
+                </div>
+            </section>
         </div>
     );
 }
