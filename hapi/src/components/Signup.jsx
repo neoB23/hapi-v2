@@ -4,14 +4,14 @@ function Signup() {
     return (
         <div className="relative bg-white dark:bg-gray-900">
             {/* Go Back to Home Button */}
+
+            <div className="flex justify-center h-screen">
             <a
                 href="/"
                 className=" bg-black p-2 rounded font-bold absolute top-4 left-4 text-sm text-gray-700 dark:text-gray-300 hover:underline focus:outline-none"
             >
                 &lt; Go Back Home
             </a>
-
-            <div className="flex justify-center h-screen">
                 <div
                     className="hidden bg-cover lg:block lg:w-2/3"
                     style={{
