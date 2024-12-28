@@ -48,7 +48,7 @@ function Login() {
                                     <input type="password" name="password" id="password" placeholder="Your Password" className="block w-full px-4 py-2 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
                                 </div>
                                 <div className="mt-6">
-                                    <a href="/" className="items-center justify-center flex w-full px-4 py-2 tracking-wide text-white transition-colors duration-300 transform bg-blue-500 rounded-lg hover:bg-blue-400 focus:outline-none focus:bg-blue-400 focus:ring focus:ring-blue-300 focus:ring-opacity-50">
+                                    <a href="/signup" className="items-center justify-center flex w-full px-4 py-2 tracking-wide text-white transition-colors duration-300 transform bg-blue-500 rounded-lg hover:bg-blue-400 focus:outline-none focus:bg-blue-400 focus:ring focus:ring-blue-300 focus:ring-opacity-50">
                                         Sign in
                                     </a>
                                 </div>
@@ -76,17 +76,15 @@ function Login() {
                                 Google
                             </button>
                             </div>
-                            <div className="flex justify-center space-x-3"> 
-                                <p className=" text-sm text-center text-gray-400">
-                                    Don't Have an Account?
-                                </p>
+                            <p className="mt-6 text-sm text-center text-gray-400">
+                                Dont Have an Account?{' '}
                                 <a
                                     href="/signup"
-                                    className="block text-sm text-center text-blue-500 focus:outline-none focus:underline hover:underline"
+                                    className="text-blue-500 focus:outline-none focus:underline hover:underline"
                                 >
                                     Sign Up
-                                </a>
-                            </div>
+                                </a>.
+                            </p>
                         </div>
                     </div>
                 </div>
