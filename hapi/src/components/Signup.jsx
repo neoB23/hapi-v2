@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Signup() {
     return (
@@ -131,5 +132,11 @@ function Signup() {
         </div>
     );
 }
-
+function CustomLink({ to, children, ...props }) {
+    return (
+      <Link to={to} {...props}>
+        {children}
+      </Link>
+    );
+  }
 export default Signup;
