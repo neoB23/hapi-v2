@@ -76,7 +76,15 @@ function Login() {
                                 Google
                             </button>
                             </div>
-                            <p className="mt-6 text-sm text-center text-gray-400">Don't have an account yet? <a href="/signup" className="text-blue-500 focus:outline-none focus:underline hover:underline">Sign up</a>.</p>
+                            <p className="mt-6 text-sm text-center text-gray-400">
+                                Dont Have an Account?{' '}
+                                <a
+                                    href="/signup"
+                                    className="text-blue-500 focus:outline-none focus:underline hover:underline"
+                                >
+                                    Sign Up
+                                </a>.
+                            </p>
                         </div>
                     </div>
                 </div>
