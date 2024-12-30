@@ -10,6 +10,8 @@ import Booking from './components/Booking';
 import Login from './components/Login';
 import Support from './components/Support';
 import Signup from './components/Signup';
+import ForgotPass from './components/ForgotPass'; 
+import ResetPass from './components/ResetPass';
 // import Loading from './components/Loading';
 
 const MainLayout = ({ children }) => {
@@ -43,6 +45,8 @@ function App() {
       <Route path="/login" element={<SecondLayout><Login/></SecondLayout>} />
       <Route path="/Support" element={<MainLayout><Support/></MainLayout>} />
       <Route path="/signup" element={<SecondLayout><Signup/></SecondLayout>} />
+      <Route path="/forgotpass" element={<SecondLayout><ForgotPass/></SecondLayout>} />
+      <Route path="/resetpass" element={<SecondLayout><ResetPass/></SecondLayout>} />
     </Routes>
   </Router>
   )
