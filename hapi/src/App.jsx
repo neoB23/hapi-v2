@@ -12,6 +12,7 @@ import Support from './components/Support';
 import Signup from './components/Signup';
 import ForgotPass from './components/ForgotPass'; 
 import ResetPass from './components/ResetPass';
+import EmailVerification from './components/EmailVerfication';
 // import Loading from './components/Loading';
 
 const MainLayout = ({ children }) => {
@@ -47,6 +48,7 @@ function App() {
       <Route path="/signup" element={<SecondLayout><Signup/></SecondLayout>} />
       <Route path="/forgotpass" element={<SecondLayout><ForgotPass/></SecondLayout>} />
       <Route path="/resetpass" element={<SecondLayout><ResetPass/></SecondLayout>} />
+      <Route path="/emailverification" element={<SecondLayout><EmailVerification/></SecondLayout>} />
     </Routes>
   </Router>
   )
