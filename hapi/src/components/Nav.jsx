@@ -72,6 +72,7 @@ function Nav() {
                 <CustomLink to="/about" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> About </CustomLink>
                 <CustomLink to="/pricing" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> Pricing </CustomLink>
                 <CustomLink to="/contact" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white" > Contact </CustomLink>
+                <CustomLink to="/admindash" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white" > Contact </CustomLink>
             </nav>
 
           {/* Account Login Button */}
