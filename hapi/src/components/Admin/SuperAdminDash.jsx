@@ -2,26 +2,19 @@ import React, { useState, useRef } from "react";
 import { Link } from 'react-router-dom';
 
 function AdminDash(){
-	const [showBooking, setShowBooking] = useState(false);
 	const [showUser, setShowUser] = useState(false);
-	const [selectedPage, setSelectedPage] = useState("user"); 
+	const [showBooking, setShowBooking] = useState(false);
+	const [selectedPage, setSelectedPage] = useState("dashboard");
 	
     return(
 		<div className="flex ">
-		<div id="Main" className="xl:rounded-r transform  xl:translate-x-0  ease-in-out transition duration-500 flex justify-start items-start h-full w-full sm:w-64 bg-gray-900 flex-col">
+		<div
+      id="Main"
+      className="xl:rounded-r transform xl:translate-x-0 ease-in-out transition duration-500 flex justify-start items-start h-full w-full sm:w-64 bg-gray-900 flex-col"
+      style={{ height: "110vh" }} // Fixed height
+    >
 			<div className="hidden xl:flex justify-start p-6 items-center space-x-3">
 			<img src="Images/logo-light3-1.webp" alt="logo" />
-			</div>
-			<div className="mt-6 flex flex-col justify-start items-center  pl-4 w-full border-gray-600 border-b space-y-3 pb-5 ">
-			<button onClick={() => setSelectedPage("dashboard")} className="flex jusitfy-start items-center space-x-6 w-full  focus:outline-none  focus:text-indigo-400  text-white rounded ">
-				<svg className="fill-stroke " width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-				<path d="M9 4H5C4.44772 4 4 4.44772 4 5V9C4 9.55228 4.44772 10 5 10H9C9.55228 10 10 9.55228 10 9V5C10 4.44772 9.55228 4 9 4Z" stroke="currentColor" stroke-width="1.5" strokeLinecap="round" stroke-linejoin="round" />
-				<path d="M19 4H15C14.4477 4 14 4.44772 14 5V9C14 9.55228 14.4477 10 15 10H19C19.5523 10 20 9.55228 20 9V5C20 4.44772 19.5523 4 19 4Z" stroke="currentColor" stroke-width="1.5" strokeLinecap="round" stroke-linejoin="round" />
-				<path d="M9 14H5C4.44772 14 4 14.4477 4 15V19C4 19.5523 4.44772 20 5 20H9C9.55228 20 10 19.5523 10 19V15C10 14.4477 9.55228 14 9 14Z" stroke="currentColor" stroke-width="1.5" strokeLinecap="round" stroke-linejoin="round" />
-				<path d="M19 14H15C14.4477 14 14 14.4477 14 15V19C14 19.5523 14.4477 20 15 20H19C19.5523 20 20 19.5523 20 19V15C20 14.4477 19.5523 14 19 14Z" stroke="currentColor" stroke-width="1.5" strokeLinecap="round" stroke-linejoin="round" />
-				</svg>
-				<p className="text-base leading-4 ">Dashboard</p>
-			</button>
 			</div>
 
 		
@@ -187,7 +180,7 @@ function AdminDash(){
 				)}
 			</div>
 
-			<div className="flex flex-col justify-between items-center h-full pb-6   px-6  w-full  space-y-32 ">
+			<div className="flex flex-col justify-between items-center h-full pb-6 px-6 w-full">
 				{/* feedback section */}
 			<button onClick={() => setSelectedPage("feedback")} className="flex jusitfy-start items-center py-5 space-x-6  w-full  focus:outline-none  focus:text-indigo-400  text-white rounded ">
 			<svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 32 32"><path fill="#fff" d="M19.95 15.89c.18.08.37.11.55.11c.41 0 .81-.17 1.1-.48L23.94 13H27c1.65 0 3-1.35 3-3V5c0-1.65-1.35-3-3-3h-8c-1.65 0-3 1.35-3 3v4.99c0 1.65 1.35 3 3 3v1.5c0 .63.37 1.17.95 1.4M18 5c0-.55.45-1 1-1h8c.55 0 1 .45 1 1v5c0 .55-.45 1-1 1h-3.94L21 13.22V11h-2c-.55 0-1-.45-1-1zm-7.5 13c-2.76 0-5-2.24-5-5s2.24-5 5-5s5 2.24 5 5s-2.24 5-5 5m0-8c-1.65 0-3 1.35-3 3s1.35 3 3 3s3-1.35 3-3s-1.35-3-3-3m0 19.99c-2.9 0-5.12-.8-6.62-2.368c-1.931-2.015-1.886-4.585-1.881-4.838v-.017C2 21.26 3.26 20 4.82 20h11.36c1.55 0 2.82 1.259 2.82 2.817v.01c.004.182.06 2.77-1.88 4.805C15.62 29.201 13.4 30 10.5 30zm-5.68-7.992c-.45 0-.82.37-.82.82v.006c-.003.143-.028 2.025 1.34 3.44c1.1 1.149 2.84 1.728 5.16 1.728s4.05-.58 5.16-1.728c1.4-1.449 1.35-3.387 1.34-3.407c0-.49-.37-.859-.82-.859z"></path></svg>
