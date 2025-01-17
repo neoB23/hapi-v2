@@ -45,24 +45,24 @@ function Support(){
                 </div>
             </div>
 
-            <section className="dark:bg-gray-100 dark:text-gray-800 w-full">
+            <section className=" dark:text-gray-800 w-full">
                 <div className="container flex flex-col justify-center px-4 py-8 mx-auto md:p-8">
-                    <h2 className="text-2xl font-semibold sm:text-4xl items-center justify-center flex">Frequently Asked Questions</h2>
+                    <h2 className="text-2xl font-semibold sm:text-4xl items-center justify-center flex">Frequently Asked &nbsp;<span className="text-orange"> Question</span></h2>
                     <p className="mt-4 mb-8 dark:text-gray-600 items-center justify-center flex">Find answers to common queries and get the help you need quickly.</p>
                     <div className="space-y-4">
                         <details className="w-full border rounded-lg">
-                            <summary className="px-4 py-6 focus:outline-none focus-visible:dark:ring-violet-600">How can I report a service issue?</summary>
+                            <summary className="px-4 py-6 focus:outline-none  focus-visible:dark:ring-violet-600">How can I report a service issue?</summary>
                             <p className="px-4 py-6 pt-0 ml-4 -mt-4 dark:text-gray-600">You can report a service issue by contacting our support team through the Hapi.Bytes Cares Messenger, emailing us, or visiting us on-site for immediate assistance.</p>
                         </details>
                         <details className="w-full border rounded-lg">
                             <summary className="px-4 py-6 focus:outline-none focus-visible:dark:ring-violet-600">How can I make a payment for my services?</summary>
-                            <p className="px-4 py-6 pt-0 ml-4 -mt-4 dark:text-gray-600">Online: You can make a payment securely through our website using credit/debit cards or other online payment methods. <br />
-                            On-site: You can also visit our office to make a payment in person using cash or card. Our team will assist you with the process.</p>
+                            <p className="px-4 py-6 pt-0 ml-4 -mt-4 dark:text-gray-600"><span className="font-bold"> Online:</span> You can make a payment securely through our website using credit/debit cards or other online payment methods. <br />
+                            <span className="font-bold"> On-site: </span> You can also visit our office to make a payment in person using cash or card. Our team will assist you with the process.</p>
                         </details>
                         <details className="w-full border rounded-lg">
                             <summary className="px-4 py-6 focus:outline-none focus-visible:dark:ring-violet-600">How can I request a service upgrade for my landline?</summary>
-                            <p className="px-4 py-6 pt-0 ml-4 -mt-4 dark:text-gray-600">Online: You can request a service upgrade by visiting our website and filling out the upgrade request form or contacting our support team via email or Hapi.Bytes Cares Messenger. <br />
-                            On-site: You can also visit our office, where our staff will assist you in selecting and processing your desired service upgrade. </p>
+                            <p className="px-4 py-6 pt-0 ml-4 -mt-4 dark:text-gray-600"><span className="font-bold"> Online:</span> You can request a service upgrade by visiting our website and filling out the upgrade request form or contacting our support team via email or Hapi.Bytes Cares Messenger. <br />
+                            <span className="font-bold">On-site: </span> You can also visit our office, where our staff will assist you in selecting and processing your desired service upgrade. </p>
                         </details>
                     </div>
                 </div>

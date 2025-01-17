@@ -4,6 +4,12 @@ import { Link } from 'react-router-dom';
 function About(){
     return(
         <div className="min-h-screen bg-black">
+             {/* <div className="relative w-full h-3/4">
+                <img src="Images/197fa294-d4fe-43d0-92d8-28570799a883.jpg" alt="bg" className="absolute inset-0 w-full h-full object-cover"/>
+                <div className="relative z-10 flex items-center justify-center w-full h-full bg-black bg-opacity-50">
+                    <h1 className="text-white font-bold md:text-4xl md:font-bold text-2xl p-20 md:p-24">Hapi Pricing Channels</h1>
+                </div>
+            </div> */}
             <div className="flex flex-col md:flex-row items-center h-auto md:h-screen">
     {/* Left Section (About Hapi.Bytes) */}
     <div className="bg-white w-full md:w-1/2 h-auto md:h-screen flex flex-col items-center justify-center p-4 md:p-0">

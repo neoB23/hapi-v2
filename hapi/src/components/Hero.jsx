@@ -4,8 +4,7 @@ import { Link } from 'react-router-dom';
 function Hero(){
     const isActive = (path) => location.pathname === path;
     return(
-        <div class="bg-black p-10">
-            
+        <div class="bg-black "> 
     <section class="relative pt-12 overflow-hidden bg-black sm:pt-16">
         <div class="relative px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
             <div class="max-w-4xl mx-auto text-center">
@@ -36,14 +35,8 @@ function Hero(){
                 <div class="absolute top-0 transform -translate-x-1/2 left-1/2">
                     <div class="w-[645px] h-[413px] blur-3xl bg-gradient-to-r from-cyan-500 to-purple-500 rounded-full"></div>
                 </div>
-
-                <div class="absolute inset-0">
-                    <img class="object-cover w-full h-full opacity-50" src="https://landingfoliocom.imgix.net/store/collection/dusk/Images/noise.png" alt="" />
-                </div>
-
                 <div class="relative overflow-hidden shadow-2xl">
-                    <div class="flex items-center justify-between px-4 bg-neutral-900 rounded-b-none h-11 rounded-xl">
-                    
+                    <div class="flex items-center justify-between px-4 bg-neutral-900 rounded-b-none h-11 rounded-xl">       
                         <div class="flex space-x-1.5">
                         <div class="w-3 bg-red-400 h-3 border-2 border-white rounded-full"></div>
                         <div class="w-3 bg-yellow-400 h-3 border-2 border-white rounded-full"></div>
@@ -62,9 +55,7 @@ function Hero(){
                             <path fill="none" stroke="#fff" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m8 7l7.5 10M8 17l7.5-10"></path>
                         </svg>
                         </div>
-                    </div>
-                    
-                    
+                    </div>         
                     <img class="rounded-b-lg" src="Images/467974638_543932278441142_1688553841243207054_n.png" alt="Example Image" />
                     </div>
                             </div>
@@ -72,12 +63,16 @@ function Hero(){
         </section>
 
         {/* INFO */}
-        <div class="px-4 mx-auto p-24 max-w-7xl sm:px-6 lg:px-8">
+        <div class="px-4 mx-auto p-24 max-w-7xl sm:px-6 lg:px-8"  className="dark:text-gray-800 bg-cover bg-center bg-no-repeat relative "
+    style={{
+        backgroundImage: `url('Images/roam_illustriation2_d.webp')`,
+        backgroundAttachment: 'fixed',
+    }}>
         <div class="text-center">
-            <h2 class="text-3xl font-bold leading-tight text-white sm:text-4xl xl:text-5xl font-pj">Discover Our Services</h2>
+            {/* Added color to the service */}
+            <h2 class="text-3xl font-bold leading-tight text-white sm:text-4xl xl:text-5xl font-pj ">Discover Our <span className="text-orange">Services </span></h2>
             <p class="mt-4 text-base leading-7 text-white sm:mt-8 font-pj">Experience seamless connectivity with our reliable and innovative landline solutions. Stay connected to what matters most with services designed to meet your communication needs.</p>
         </div>
-
         <div class="grid grid-cols-1 mt-10 text-center sm:mt-16 sm:grid-cols-2 sm:gap-x-12 gap-y-12 md:grid-cols-3 md:gap-0 xl:mt-24">
             <div class="md:p-8 lg:p-14">
                 <svg class="mx-auto" width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -145,91 +140,209 @@ function Hero(){
                 <h3 class="mt-12 text-xl font-bold text-white font-pj">Quality</h3>
                 <p class="mt-5 text-base text-white font-pj">Quality is at the core of everything we do. We are committed to providing top-tier services and products that meet the highest standards of reliability and efficiency.</p>
             </div>
-
             <div class="md:p-8 lg:p-14 md:border-l md:border-gray-200 md:border-t">
                     <svg fill="none" stroke="#FFFFFF" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="text-indigo-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
                         <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
                     </svg>
                 <h3 class="mt-12 text-xl font-bold text-white font-pj">CCTV Clients</h3>
                 <p class="mt-5 text-base text-white font-pj">Secure your home or business with our advanced CCTV services. Monitor and protect with ease, supported by reliable connectivity and expert assistance.
-
-
-
-
-
-
 </p>
             </div>
         </div>
     </div>
 
-    {/* testimonal */}
-    <section className="dark:text-gray-800">
-            <div className="container px-6 py-12 mx-auto">
-                <div className="grid items-center gap-4 xl:grid-cols-5">
-                    <div className="max-w-2xl mx-auto my-8 space-y-4 text-center xl:col-span-2 xl:text-left">
-                        <h2 className="text-4xl text-white font-bold">What Our Customers Are Saying</h2>
-                        <p className="dark:text-gray-600">Hear directly from our valued clients about their experience with our reliable landline services. From clear connections to exceptional customer support, discover why we’re the trusted choice for homes and businesses alike.</p>
-                    </div>
-                    <div className="p-6 xl:col-span-3">
-                        <div className="grid gap-4 md:grid-cols-2">
-                            <div className="grid content-center gap-4">
-                                <div className="p-6 rounded border-2 text-white border-white shadow-md ">
-                                    <p>Grabe naman bilis ng serbisyo! Kanina lang nag inquire after lunch. Naka activate na ka agad!
-                                        hapi.bytes lang malakas
-                                    </p>
-                                    <div className="flex items-center mt-4 space-x-4">
-                                        <img src="https://source.unsplash.com/50x50/?portrait?1" alt="" className="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500" />
-                                        <div>
-                                            <p className="text-lg font-semibold">Robin Jeffrey Lacay</p>
-                                            <p className="text-sm dark:text-gray-600">Customer</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="p-6 rounded border-2 text-white border-white shadow-md ">
-                                    <p>Hi, thanks anyway for the action taken few days ago bilis. so far wala naman po connection problem thanks a lot.</p>
-                                    <div className="flex items-center mt-4 space-x-4">
-                                        <img src="https://source.unsplash.com/50x50/?portrait?2" alt="" className="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500" />
-                                        <div>
-                                            <p className="text-lg font-semibold">Unknown</p>
-                                            <p className="text-sm dark:text-gray-600">Customer</p>
-                                        </div>
-                                    </div>
+    <div className="min-h-screen flex items-center bg-cover bg-center bg-no-repeat relative">
+        {/* Background Image */}
+        <div
+            className="absolute inset-0 bg-cover bg-center bg-no-repeat h-screen sm:h-full w-full responsive-image"
+            style={{
+                backgroundImage: `url('Images/Electrical lineman.jpg - Copy.webp')`,
+                filter: 'brightness(0.4)',
+                zIndex: 0, // Corrected z-index to ensure the image is visible
+            }}
+        ></div>
+
+        {/* Semi-transparent black overlay */}
+        <div
+            className="absolute inset-0 bg-black opacity-50"
+            style={{ zIndex: 1 }} // Overlay is above the image but below content
+        ></div>
+
+        {/* Content section */}
+        <div className="relative z-10 flex min-h-screen flex-col justify-center items-start px-4 sm:px-8 space-y-4 sm:space-y-6 ml-4 sm:ml-12">
+            <h1 className="font-bold text-3xl sm:text-4xl md:text-7xl text-white leading-snug">
+                About <span className="text-orange">Hapi.bytes</span>
+            </h1>
+            <p className="text-white text-sm sm:text-base md:text-lg leading-relaxed">
+                Founded in 2022, Hapi.Bytes is committed to delivering affordable internet to Filipino households.
+                <br className="hidden sm:block" />
+                More than just providing connectivity, we offer seamless internet solutions designed to meet the needs
+                <br className="hidden sm:block" />
+                of every family. At Hapi.Bytes, empowering communities through reliable service is our passion.
+            </p>
+            <CustomLink
+                href="/Thirdlayout"
+                className="text-orange border-4 border-orange p-2 text-xs sm:text-sm md:text-base"
+            >
+                Read More
+            </CustomLink>
+        </div>
+        </div>
+
+{/* testimonal */}
+<section
+    className="dark:text-gray-800 bg-cover bg-center absolute bg-no-repeat relative"
+    style={{
+        backgroundImage: `url('Images/roam_illustriation2_d.webp')`,
+        backgroundAttachment: 'fixed',
+        backgroundPosition: 'left center', // Align image to the left
+        backgroundSize: '50%', // Make the image smaller
+        
+    }}
+>
+    <div className="container px-6 py-12 mx-auto">
+        <div className="grid items-center gap-4 xl:grid-cols-5">
+            <div className="max-w-2xl mx-auto my-8 space-y-4 text-center xl:col-span-2 xl:text-left">
+                {/* Add color to the customer */}
+                <h2 className="text-4xl text-white font-bold">
+                    What Our <span className="text-orange">Customers</span> Are Saying
+                </h2>
+                <p className="dark:text-gray-300">
+                    Hear directly from our valued clients about their experience with our reliable landline services.
+                    From clear connections to exceptional customer support, discover why we’re the trusted choice for
+                    homes and businesses alike.
+                </p>
+            </div>
+            <div className="p-6 xl:col-span-3">
+                <div className="grid gap-4 md:grid-cols-2">
+                    <div className="grid content-center gap-4">
+                        <div className="p-6 rounded border-2 text-white border-white shadow-md">
+                            <p>
+                                Grabe naman bilis ng serbisyo! Kanina lang nag inquire after lunch. Naka activate na ka
+                                agad! hapi.bytes lang malakas
+                            </p>
+                            <div className="flex items-center mt-4 space-x-4">
+                                <img
+                                    src="Images/depositphotos_29387653-stock-photo-facebook-profile.jpg"
+                                    alt=""
+                                    className="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500"
+                                />
+                                <div>
+                                    <p className="text-lg font-semibold">Robin Jeffrey Lacay</p>
+                                    <p className="text-sm dark:text-gray-600">Customer</p>
                                 </div>
                             </div>
-                            <div className="grid content-center gap-4">
-                                <div className="p-6 rounded border-2 text-white border-white shadow-md ">
-                                    <p>Real experience of a user: very commendable ! Mission served: Fast, Affordable, and reliable internet that we deserve.</p>
-                                    <div className="flex items-center mt-4 space-x-4">
-                                        <img src="https://source.unsplash.com/50x50/?portrait?3" alt="" className="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500" />
-                                        <div>
-                                            <p className="text-lg font-semibold">Vondee Layca</p>
-                                            <p className="text-sm dark:text-gray-600">Customer</p>
-                                        </div>
-                                    </div>
+                        </div>
+                        <div className="p-6 rounded border-2 text-white border-white shadow-md">
+                            <p>
+                                Hi, thanks anyway for the action taken few days ago bilis. so far wala naman po
+                                connection problem thanks a lot.
+                            </p>
+                            <div className="flex items-center mt-4 space-x-4">
+                                <img
+                                    src="Images/depositphotos_29387653-stock-photo-facebook-profile.jpg"
+                                    alt=""
+                                    className="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500"
+                                />
+                                <div>
+                                    <p className="text-lg font-semibold">Unknown</p>
+                                    <p className="text-sm dark:text-gray-600">Customer</p>
                                 </div>
-                                <div className="p-6 rounded shadow-md  border-2 text-white border-white ">
-                                    <p>From laggy internet to hapibytes internet fast and reliable sobrang smooth lalo na sa mga games recommended internet pakabit na mga boss sulit ang bayad, Hapi.bytes lang sakalam</p>
-                                    <div className="flex items-center mt-4 space-x-4">
-                                        <img src="https://source.unsplash.com/50x50/?portrait?4" alt="" className="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500" />
-                                        <div>
-                                            <p className="text-lg font-semibold">Bryan Francisco</p>
-                                            <p className="text-sm dark:text-gray-600">Customer</p>
-                                        </div>
-                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="grid content-center gap-4">
+                        <div className="p-6 rounded border-2 text-white border-white shadow-md">
+                            <p>
+                                Real experience of a user: very commendable! Mission served: Fast, Affordable, and
+                                reliable internet that we deserve.
+                            </p>
+                            <div className="flex items-center mt-4 space-x-4">
+                                <img
+                                    src="Images/depositphotos_29387653-stock-photo-facebook-profile.jpg"
+                                    alt=""
+                                    className="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500"
+                                />
+                                <div>
+                                    <p className="text-lg font-semibold">Vondee Layca</p>
+                                    <p className="text-sm dark:text-gray-600">Customer</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="p-6 rounded shadow-md border-2 text-white border-white">
+                            <p>
+                                From laggy internet to hapibytes internet fast and reliable sobrang smooth lalo na sa
+                                mga games recommended internet pakabit na mga boss sulit ang bayad, Hapi.bytes lang
+                                sakalam
+                            </p>
+                            <div className="flex items-center mt-4 space-x-4">
+                                <img
+                                    src="Images/depositphotos_29387653-stock-photo-facebook-profile.jpg"
+                                    alt=""
+                                    className="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500"
+                                />
+                                <div>
+                                    <p className="text-lg font-semibold">Bryan Francisco</p>
+                                    <p className="text-sm dark:text-gray-600">Customer</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </div>
+</section>
+
+
+        <div className="min-h-screen relative bg-cover bg-center bg-no-repeat">
+    {/* Background Image */}
+    <div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat h-screen sm:h-full w-full"
+        style={{
+            backgroundImage: `url('Images/landscape-desktop-wallpaper.jpg')`,
+            filter: 'brightness(0.6)',
+            zIndex: 0,
+        }}
+    ></div>
+
+    {/* Semi-transparent black overlay */}
+    <div
+        className="absolute inset-0 bg-black opacity-50"
+        style={{ zIndex: 1 }}
+    ></div>
+
+    {/* Content section */}
+    <div className="absolute inset-y-0 right-4 sm:right-8 flex justify-center items-center z-10 space-y-5">
+        <div className="space-y-4">
+            <h1 className="font-bold text-3xl sm:text-4xl text-left md:text-6xl text-white leading-snug">
+                Have <span className="text-orange">Hapi.bytes</span> Anywhere
+            </h1>
+            <p className="text-white text-sm text-left sm:text-base md:text-lg leading-relaxed">
+                Stay connected wherever you are. Hapi.Bytes brings reliable and affordable internet right
+                <br className="hidden sm:block" />
+                to your fingertips empowering you to work, play, and connect without limits.
+            </p>
+            <div className="text-left"> {/* Align the button to the left */}
+                <CustomLink
+                    href="/Thirdlayout"
+                    className="text-orange border-4 border-orange p-2 text-xs sm:text-sm md:text-base"
+                >
+                    View Area Coverage
+                </CustomLink>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    
 
     {/* About us  */}
-    <div class="flex justify-center items-center">
+    {/* <div class="flex justify-center items-center">
         <div class="2xl:mx-auto 2xl:container lg:px-20 lg:py-16 md:py-12 md:px-6 py-9 px-4 w-96 sm:w-auto">
             <div role="main" class="flex flex-col items-center justify-center">
-            <h1 class="text-4xl font-semibold leading-9 text-center text-gray-800 dark:text-gray-50">Discover More About Us</h1>
+            <h1 class="text-4xl font-semibold leading-9 text-center text-gray-800 dark:text-gray-50">Discover More <span className="text-orange">  About Us </span></h1>
             <p class="text-base leading-normal text-center text-gray-600 dark:text-white mt-4 lg:w-1/2 md:w-10/12 w-11/12">Looking for insights and updates? You’ve come to the right place! Here, we share random yet meaningful updates about what we do, our journey, and everything in between. Stay connected for more!</p>
             </div>
             <div class="lg:flex items-stretch md:mt-12 mt-8">
@@ -331,8 +444,11 @@ function Hero(){
             </div>
             </div>
         </div>
-        </div>
+        </div> */}
+      
+
     </div>
+    
     );
 }
 function CustomLink({ href, children, ...props }) {

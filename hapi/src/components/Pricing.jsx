@@ -9,6 +9,12 @@ function Pricing(){
     ];
     return(
         <div className="min-h-screen p-2 bg-black">
+             <div className="relative w-full h-3/4">
+                <img src="Images/197fa294-d4fe-43d0-92d8-28570799a883.jpg" alt="bg" className="absolute inset-0 w-full h-full object-cover"/>
+                <div className="relative z-10 flex items-center justify-center w-full h-full bg-black bg-opacity-50">
+                    <h1 className="text-white font-bold md:text-4xl md:font-bold text-2xl p-20 md:p-24">Hapi Pricing Channels</h1>
+                </div>
+            </div>
        <div className="container px-5 py-24 mx-auto">
                 <div className="flex flex-col space-y-4 text-center w-full text-white mb-20">
                     <span className="font-bold  tracking-wider text-4xl md:font-bold md:text-5xl uppercase text-white">Our <span className="text-orange">Plans</span>  for Your <span className="text-orange">Connectivity</span> </span>
@@ -212,7 +218,7 @@ function Pricing(){
       <img src="Images/Infrastruttura-di-rete-FTTH.png" alt="FTTH" className="h-80 dark:bg-gray-500 aspect-video" />
       <div className="flex flex-col justify-center flex-1 p-6 bg-zinc-900">
         <h3 className="text-3xl font-bold">FTTH (Fiber to the Home)</h3>
-        <p className="my-6 text-zinc-500">
+        <p className="my-6 text-zinc-300">
           is an optical fiber architecture in which fiber cable is used in the access network to make the final connection directly to customer’s homes or offices. The purpose of using optical cable in the access network is to provide broadband services to the customers. The greatest hurdle in its widespread deployment was its high cost, but with the recent development in the optical communication systems and especially in the PON (Passive Optical Network) made it possible to deploy it widely with reduced cost. On the other hand high data rates are now possible because of huge available bandwidth, thus making it cost effective solution
         </p>
       </div>
@@ -221,7 +227,7 @@ function Pricing(){
       <img src="Images/internet-leased-line-services-1.webp" alt="" className="h-80 dark:bg-gray-500 aspect-video" />
       <div className="flex flex-col justify-center flex-1 p-6 bg-zinc-900">
         <h3 className="text-3xl font-bold">Leased Line Internet Connection</h3>
-        <p className="my-6 text-zinc-500">
+        <p className="my-6 text-zinc-300">
           A leased line is a dedicated, fixed-bandwidth data connection. It allows data-hungry businesses to have a reliable, high-quality internet connection with guarantees of upload and download speed, uptime and resilience. “Leased” refers to the connection which is rented by the Internet Service Provider (ISP) directly to a business, resulting in a service above and beyond what standard broadband provides.
         </p>
       </div>
@@ -230,7 +236,7 @@ function Pricing(){
       <img src="Images/istockphoto-673967530-612x612.jpg" alt="" className="h-80 dark:bg-gray-500 aspect-video" />
       <div className="flex flex-col justify-center flex-1 p-6 bg-zinc-900">
         <h3 className="text-3xl font-bold">CCTV Installation</h3>
-        <p className="my-6 text-zinc-500">
+        <p className="my-6 text-zinc-300">
           Security at home and in buildings is a top consideration everywhere in the world. Acting to improve the security of your loved ones is a wise and important decision given that the media frequently reports on various instances of theft and burglary. And one way to increase security in your neighborhood is by installing CCTV cameras.
         </p>
       </div>
@@ -239,7 +245,7 @@ function Pricing(){
       <img src="Images/Hf4d306872e3d447aa33c0f414bc58b42k.avif" alt="" className="h-80 dark:bg-gray-500 aspect-video" />
       <div className="flex flex-col justify-center flex-1 p-6 bg-zinc-900">
         <h3 className="text-3xl font-bold">WiFi Hotspot/Vendo</h3>
-        <p className="my-6 text-zinc-500">
+        <p className="my-6 text-zinc-300">
           A leased line is a dedicated, fixed-bandwidth data connection. It allows data-hungry businesses to have a reliable, high-quality internet connection with guarantees of upload and download speed, uptime and resilience. “Leased” refers to the connection which is rented by the Internet Service Provider (ISP) directly to a business, resulting in a service above and beyond what standard broadband provides.
         </p>
       </div>
